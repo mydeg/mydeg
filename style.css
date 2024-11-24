@@ -118,6 +118,10 @@ footer {
     background-color: #1428a0;
     color: white;
     margin-top: 2rem;
+
+    a {
+        color: #ffffff;
+    }
 }
 
 /* Responsividade */
