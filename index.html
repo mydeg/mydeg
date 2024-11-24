@@ -1,1 +1,119 @@
-ABC
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Store Apps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1428a0;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .app-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .app {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            text-align: center;
+            padding: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .app:hover {
+            transform: scale(1.05);
+        }
+
+        .app img {
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+        }
+
+        .app h3 {
+            font-size: 1rem;
+            color: #333;
+            margin: 0 0 0.5rem;
+        }
+
+        .app a {
+            text-decoration: none;
+            color: #007aff;
+            font-weight: bold;
+        }
+
+        .app a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1428a0;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galaxy Store Apps</h1>
+    </header>
+
+    <div class="app-container">
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 1</h3>
+            <a href="samsungapps://App1">Abrir</a>
+        </div>
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 2</h3>
+            <a href="samsungapps://App2">Abrir</a>
+        </div>
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 3</h3>
+            <a href="samsungapps://App3">Abrir</a>
+        </div>
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 4</h3>
+            <a href="samsungapps://App4">Abrir</a>
+        </div>
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 5</h3>
+            <a href="samsungapps://App5">Abrir</a>
+        </div>
+        <div class="app">
+            <img src="https://via.placeholder.com/80" alt="App Icon">
+            <h3>App 6</h3>
+            <a href="samsungapps://App6">Abrir</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Galaxy Store Showcase</p>
+    </footer>
+</body>
+</html>
