@@ -14,12 +14,12 @@ function detectarPlataforma() {
         // Exemplo de ação: Redirecionar para a App Store (você pode customizar o link)
         window.location.href = "https://apps.apple.com";
     }
-    else if (plataforma.indexOf("windows") > -1) {
-        // Ação para Windows
-        console.log("Você está usando Windows.");
-        // Exemplo de ação: Redirecionar para o site da Microsoft Store
-        window.location.href = "https://www.microsoft.com/store";
-    }
+    // else if (plataforma.indexOf("windows") > -1) {
+    //     // Ação para Windows
+    //     console.log("Você está usando Windows.");
+    //     // Exemplo de ação: Redirecionar para o site da Microsoft Store
+    //     window.location.href = "https://www.microsoft.com/store";
+    // }
     else if (plataforma.indexOf("mac") > -1) {
         // Ação para macOS
         console.log("Você está usando macOS.");
