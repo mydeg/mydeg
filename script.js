@@ -17,6 +17,6 @@ function detectarPlataforma() {
 
 // Chama a função ao carregar a página
 var plataforma = detectarPlataforma();
-if (plataforma == "") {
+if (plataforma == "windows") {
     alert("Plataforma desconhecida. Não foi possível determinar a ação.");
 }
