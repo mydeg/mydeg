@@ -141,3 +141,17 @@ footer a {
         max-width: 300px;
     }
 }
+
+myde-link {
+    text-decoration: none;
+    color: #007aff;
+    font-weight: bold;
+    border: 1px solid #007aff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+myde-link:hover {
+    background-color: green;
+}
