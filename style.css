@@ -142,11 +142,6 @@ footer a {
     }
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 /* Estilo do menu lateral */
 .sidebar {
     height: 100%;
