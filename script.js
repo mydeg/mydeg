@@ -6,10 +6,6 @@ function detectarPlataforma() {
         return "android";
     } else if (plataforma.indexOf("windows") > -1) {
         return "windows";
-    } else if (plataforma.indexOf("mac") > -1) {
-        return "mac";
-    } else if (plataforma.indexOf("iphone") > -1 || plataforma.indexOf("ipod") > -1) {
-        return "ios";
     } else {
         return "";
     }
@@ -17,5 +13,6 @@ function detectarPlataforma() {
 
 // Chama a função ao carregar a página
 var plataforma = detectarPlataforma();
-// alert("Plataforma desconhecida. Não foi possível determinar a ação.");
-window.location.href = "google.com";
+if (plataforma == "") {
+    alert("Plataforma desconhecida. Não foi possível determinar a ação.");
+}
