@@ -17,4 +17,5 @@ function detectarPlataforma() {
 
 // Chama a função ao carregar a página
 var plataforma = detectarPlataforma();
-alert("Plataforma desconhecida. Não foi possível determinar a ação.");
+// alert("Plataforma desconhecida. Não foi possível determinar a ação.");
+window.location.href = "google.com";
