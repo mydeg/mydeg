@@ -156,17 +156,23 @@ footer a:hover {
 }
 
 /* Lista de tecnologias com ícones */
+.tech-stack {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-stack li {
+    font-size: 1.2em;
+    color: #555;
+}
+
 .tech-stack i {
-    font-size: 2em;
     color: #f39c12;
-    transition: transform 0.3s ease;
+    /* Cor do ícone */
 }
-
-.tech-stack i:hover {
-    transform: scale(1.2);
-    color: #007bff;
-}
-
 
 /* Botão de link */
 .project-info .btn {
