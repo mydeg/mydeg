@@ -63,16 +63,40 @@
     </section>
 
     <!-- Seção de Contato -->
-    <section id="contact">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Tem alguma dúvida ou gostaria de colaborar? Entre em contato comigo!</p>
+    <section class="contact-section">
+        <h2>Entre em Contato</h2>
+        <p>Se você tiver dúvidas ou quiser discutir projetos, entre em contato comigo!</p>
+
+        <!-- Formulário de Contato -->
+        <form action="contact.php" method="POST" class="contact-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+            <label for="subject">Assunto</label>
+            <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Sua mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+
+        <!-- Informações de Contato -->
+        <div class="contact-info">
+            <h3>Outras formas de contato:</h3>
+            <p><strong>E-mail:</strong> contato@meusite.com</p>
+            <p><strong>Redes sociais:</strong></p>
             <ul>
-                <li><a href="mailto:mydeplus2023@gmail.com">Enviar E-mail</a></li>
-                <li><a href="https://github.com/MydeG" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/username" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/username" target="_blank">Twitter</a></li>
             </ul>
         </div>
     </section>
+
 
     <!-- Rodapé -->
     <footer>
