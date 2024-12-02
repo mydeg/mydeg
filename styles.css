@@ -157,21 +157,23 @@ footer a:hover {
 
 /* Lista de tecnologias com ícones */
 .tech-stack {
-    list-style: none;
-    padding: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.tech-icons {
     display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
+    justify-content: center;
+    gap: 20px;
+    /* Espaço entre os ícones */
+    flex-wrap: wrap;
+    /* Permite que os ícones quebrem para a linha seguinte se necessário */
 }
 
-.tech-stack li {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.tech-stack i {
-    color: #f39c12;
-    /* Cor do ícone */
+.tech-icons i {
+    width: 50px;
+    /* Tamanho dos ícones */
+    height: auto;
 }
 
 /* Botão de link */
