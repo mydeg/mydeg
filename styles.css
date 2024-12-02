@@ -156,12 +156,12 @@ footer a:hover {
 }
 
 /* Lista de tecnologias com ícones */
-.tech-stack {
+tech-stack {
     text-align: center;
     padding: 20px;
 }
 
-.tech-icons {
+tech-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -170,10 +170,11 @@ footer a:hover {
     /* Permite que os ícones quebrem para a linha seguinte se necessário */
 }
 
-.tech-icons i {
+tech-icons i {
     width: 20px;
     /* Tamanho dos ícones */
     height: 20px;
+    color: coral;
 }
 
 /* Botão de link */
