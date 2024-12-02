@@ -107,7 +107,7 @@ footer a:hover {
 }
 
 /* Estilos principais do Project Card */
-.project-card {
+project-card {
     display: flex;
     flex-direction: column;
     border: 2px solid #ddd;
@@ -119,66 +119,43 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-.project-card:hover {
+project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos da imagem do projeto */
-.project-image img {
+project-card project-image img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
 
-.project-card:hover .project-image img {
+project-card:hover project-image img {
     transform: scale(1.05);
     /* Zoom ao passar o mouse */
 }
 
 /* Informações do projeto */
-.project-info {
+project-card project-info {
     padding: 20px;
 }
 
-.project-info h3 {
+project-card project-info h3 {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 10px;
 }
 
-.project-info p {
+project-card project-info p {
     color: #666;
     font-size: 1em;
     margin-bottom: 15px;
 }
 
-/* Lista de tecnologias com ícones */
-tech-stack {
-    text-align: center;
-    padding: 20px;
-}
-
-tech-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    /* Espaço entre os ícones */
-    flex-wrap: wrap;
-    /* Permite que os ícones quebrem para a linha seguinte se necessário */
-}
-
-tech-icons i {
-    /* Tamanho dos ícones */
-    width: 50px;
-    height: 50px;
-
-    color: coral;
-}
-
 /* Botão de link */
-.project-info .btn {
+project-card project-info .btn {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -188,8 +165,31 @@ tech-icons i {
     transition: background-color 0.3s ease;
 }
 
-.project-info .btn:hover {
+project-card project-info .btn:hover {
     background-color: #0056b3;
+}
+
+/* Lista de tecnologias com ícones */
+project-card tech-stack {
+    text-align: center;
+    padding: 20px;
+}
+
+project-card tech-stack tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Espaço entre os ícones */
+    flex-wrap: wrap;
+    /* Permite que os ícones quebrem para a linha seguinte se necessário */
+}
+
+project-card tech-stack tech-icons i {
+    /* Tamanho dos ícones */
+    width: 50px;
+    height: 50px;
+
+    color: coral;
 }
 
 /* Para a página de contato */
